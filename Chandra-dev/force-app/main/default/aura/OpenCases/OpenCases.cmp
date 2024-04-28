@@ -1,0 +1,14 @@
+<aura:component >
+	 <aura:attribute name="cases" type="Case[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/> 
+        <aura:iteration items="{!v.cases}" var="case">
+        <lightning:recordForm
+        aura:id="cases"
+        record="{!v.case}"
+        objectApiName="case"
+        fields="{!v.fields}"
+        columns="2"
+        mode="view"
+        type="MINI"/>
+    </aura:iteration>
+</aura:component>

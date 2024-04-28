@@ -1,0 +1,23 @@
+<apex:page >
+<apex:form >
+ <apex:pageBlock title="Fist Block">
+ <apex:pageBlockSection title="Fist section">
+   <apex:pageBlockSectionItem >My Page   </apex:pageBlockSectionItem>
+      <apex:pageBlockSectionItem >Salesforce Developer   </apex:pageBlockSectionItem>
+      <apex:pageBlockSectionItem >Salesforce Admin   </apex:pageBlockSectionItem>
+ 
+ </apex:pageBlockSection>
+  <apex:pageBlockSection title="second section">
+   <apex:pageBlockSectionItem >Item1  </apex:pageBlockSectionItem>
+      <apex:pageBlockSectionItem >Item2  </apex:pageBlockSectionItem>
+      <apex:pageBlockSectionItem >Item3  </apex:pageBlockSectionItem>
+ 
+ </apex:pageBlockSection>
+ <apex:pageBlockButtons >
+ <apex:commandButton value="submit"/>
+ <apex:commandButton value="cancel"/>
+ </apex:pageBlockButtons>
+ 
+ </apex:pageBlock>
+ </apex:form>
+</apex:page>

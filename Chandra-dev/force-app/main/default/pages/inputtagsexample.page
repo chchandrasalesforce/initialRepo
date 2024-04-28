@@ -1,0 +1,42 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock >
+<h1> Please fill the below details </h1><br/><br/>
+<table style="width:50%">
+  <tr>
+    <th>Enter Name</th>
+       <td><apex:inputText id="name"/></td>
+  </tr>
+    <tr>
+    <th>Enter Age</th>
+       <td><apex:inputText id="Age"/></td>
+  </tr>
+      <tr>
+    <th>Enter User Name</th>
+       <td><apex:inputText id="UserName"/></td>
+  </tr>
+        <tr>
+    <th>Enter User Password</th>
+       <td><apex:inputSecret id="password"/></td>
+  </tr>
+          <tr>
+    <th>Cover Letter</th>
+       <td><apex:inputTextarea id="coverletter"/></td>
+  </tr>
+            <tr>
+    <th>Are you currently employeed</th>
+       <td><apex:inputCheckbox id="employeecheckbox"/></td>
+  </tr>
+            <tr>
+    <th><apex:outputLink value="https://www.google.com"> Salesfoce</apex:outputLink></th>
+  </tr>
+
+</table>
+<apex:pageBlockButtons >
+ <apex:commandButton value="submit"/>
+ <apex:commandButton value="cancel"/>
+ </apex:pageBlockButtons>
+</apex:pageBlock>
+
+</apex:form>
+</apex:page>

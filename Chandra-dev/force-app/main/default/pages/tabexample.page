@@ -1,0 +1,19 @@
+<apex:page >
+ <apex:tabPanel switchType="client" >
+  <apex:tab label="Customer" id="Customer">
+  <apex:panelGrid columns="3" id="customerdata" border="3" style="arial">
+  <apex:outputText value="Adidas" id="Adidas"></apex:outputText>
+  <apex:outputText value="Nike" id="Nike"></apex:outputText>
+  <apex:outputText value="NB" id="NB"></apex:outputText>
+  <apex:outputText value="Sparx" id="Sparx"></apex:outputText>
+    </apex:panelGrid>
+   </apex:tab>
+     <apex:tab label="Account" id="Account">
+  <apex:panelGrid columns="3" id="Accountdata" border="3" style="arial" bgcolor="yellow">
+  <apex:outputText value="Adidas" id="Adidas2"></apex:outputText>
+  <apex:outputText value="Nike" id="Nike2"></apex:outputText>
+  <apex:outputText value="NB" id="NB2"></apex:outputText>
+  <apex:outputText value="Sparx" id="Sparx2"></apex:outputText>
+    </apex:panelGrid>
+   </apex:tab></apex:tabPanel>
+</apex:page>

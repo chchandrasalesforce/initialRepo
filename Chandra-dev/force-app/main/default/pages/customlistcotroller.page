@@ -1,0 +1,14 @@
+<apex:page controller="Opptylistcontr">
+<apex:pageBlock >
+<apex:pageBlockTable value="{!opportunities}" var="c">
+<apex:column value="{!c.Id}"/>
+<apex:column value="{!c.Name}"/>
+<apex:column value="{!c.CloseDate}"/>
+<apex:column value="{!c.Amount}"/>
+
+
+</apex:pageBlockTable>
+
+</apex:pageBlock>
+ 
+</apex:page>

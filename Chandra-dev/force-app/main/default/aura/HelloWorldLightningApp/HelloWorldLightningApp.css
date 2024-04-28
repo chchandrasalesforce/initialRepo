@@ -1,0 +1,10 @@
+h1.THIS {
+    color : green
+}
+.THIS li {
+    color : blue
+}
+
+ul.THIS{
+    list-style-type : circle;
+}

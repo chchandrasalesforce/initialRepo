@@ -1,0 +1,18 @@
+.THIS.slds-size_1-of-2>div>h1{
+    /*background-color: lightgreen; */
+    border-style: solid;
+   /* font-family: "Times New Roman", Times, serif; */
+    text-align: justify;
+  	/*border: 3px solid blue; */
+}
+.THIS.slds-size_1-of-2 {
+   /*font-family: "Times New Roman", Times, serif; */
+    font-family: system-ui;
+   /* border: 3px solid green; */
+    padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+    font-size: 20px;
+    background-color: white;
+}
